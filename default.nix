@@ -12,8 +12,5 @@ with pkgs; {
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  framework-grub-theme = callPackage ./pkgs/framework-grub-theme {};
   latencyflex = callPackage ./pkgs/latencyflex {};
-  minegrub = callPackage ./pkgs/minegrub {};
-  regreet = callPackage ./pkgs/regreet {};
 }
